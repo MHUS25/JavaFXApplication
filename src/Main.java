@@ -6,7 +6,7 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;﻿
 
-public class Main {
+public class Main extends Application {
 
     public static void main(String[] args) {
 
