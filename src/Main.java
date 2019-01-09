@@ -18,6 +18,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("Window Title");
 
-        button = new Button("Click me");
+        button = new Button();
+        button.setText("Click me");
     }
 }
