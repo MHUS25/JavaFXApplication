@@ -25,5 +25,6 @@ public class Main extends Application {
         layout.getChildren().add(button);
 
         Scene scene = new Scene(layout, 300, 250);
+        primaryStage.setScene(scene);
     }
 }
