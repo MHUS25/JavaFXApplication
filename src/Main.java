@@ -20,5 +20,8 @@ public class Main extends Application {
 
         button = new Button();
         button.setText("Click me");
+
+        StackPane layout = new StackPane;
+        
     }
 }
