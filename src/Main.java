@@ -23,12 +23,7 @@ public class Main extends Application {
 
         button = new Button();
         button.setText("Click me");
-        button.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-                System.out.println("Annonymous inner class");
-            }
-        });
+        button.setOnAction(e -> System.out.println("Button clicked"));
 
         StackPane layout = new StackPane();
         layout.getChildren().add(button);
