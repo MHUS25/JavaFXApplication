@@ -6,9 +6,6 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-import java.awt.event.ActionEvent;
-import java.beans.EventHandler;
-
 public class Main extends Application {
 
     Button button;
